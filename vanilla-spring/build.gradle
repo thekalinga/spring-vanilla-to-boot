@@ -1,0 +1,18 @@
+dependencies {
+  implementation 'org.springframework:spring-webmvc'
+  implementation 'org.apache.tomcat.embed:tomcat-embed-core'
+  // embedded server
+  implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+
+  implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
+  implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+  implementation 'com.fasterxml.jackson.module:jackson-module-parameter-names'
+  implementation 'com.fasterxml.jackson.core:jackson-databind'
+
+  implementation 'org.springframework.data:spring-data-jpa'
+  implementation 'org.hibernate:hibernate-core'
+  implementation 'org.hibernate.validator:hibernate-validator'
+  runtimeOnly 'com.h2database:h2'
+
+  testImplementation 'org.springframework:spring-test'
+}
