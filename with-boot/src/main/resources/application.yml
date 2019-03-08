@@ -7,7 +7,7 @@ spring:
   jpa:
     properties:
       hibernate:
-        physical_naming_strategy: com.acme.boot.mvc.TablePrefixedSpringPhysicalNamingStrategy
+        physical_naming_strategy: com.acme.boot.mvc.misc.TablePrefixedSpringPhysicalNamingStrategy
         hbm2ddl:
           auto: create-drop
         format_sql: true

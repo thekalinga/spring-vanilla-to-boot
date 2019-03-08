@@ -1,4 +1,4 @@
-package com.acme.boot.mvc;
+package com.acme.mvc.misc;
 
 import org.hibernate.boot.model.naming.Identifier;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;
